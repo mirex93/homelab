@@ -5,7 +5,7 @@ services:
     image: 'jc21/nginx-proxy-manager:latest'
     restart: unless-stopped
     environment:
-      TZ: "Australia/Brisbane"
+      TZ: "Europe/Stockholm"
     ports:
       - '80:80'
       - '81:81'
